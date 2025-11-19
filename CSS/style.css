@@ -1,0 +1,121 @@
+main{
+  background-image: url("../Images/imgi_7_banner.png");
+}
+.mainColor {
+  background-color: #1e202b;
+}
+
+.secondaryColor {
+  background-color: #262936;
+}
+
+.logo a h1 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.logo a small {
+  font-size: 10px;
+  font-weight: 300;
+  color: rgb(191, 193, 200);
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.nav-link {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 5px 20px !important;
+  border: 2px solid #1e202b;
+}
+
+.nav-link.active {
+  color: #0d6efd !important;
+  border: 2px solid #0d6efd;
+  border-radius: 15px;
+  padding: 5px 20px !important;
+  background-color: rgba(13, 110, 253, 0.1);
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important;
+  border: 2px solid #0d6efd;
+  border-radius: 15px;
+  padding: 5px 20px !important;
+}
+
+.input-group button {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 3px 30px !important;
+}
+
+.input-group input::placeholder {
+  color: rgb(191, 193, 200);
+  font-size: 14px;
+}
+
+#cityInput {
+  padding-right: 120px; 
+  transition: all 0.3s ease-in-out;
+}
+
+#cityInput:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.5);
+  border-color: #0d6efd;
+}
+
+#getWeatherBtn {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 8px 25px;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+#getWeatherBtn:hover,
+#getWeatherBtn:focus {
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.5);
+}
+
+.weather-card {
+  transition: 0.3s;
+  color: white;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+#cityInput {
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+#cityInput:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.5);
+}
+
+#getWeatherBtn {
+  padding: 8px 25px;
+  transition: 0.3s;
+}
+
+#getWeatherBtn:hover {
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.4);
+}
+
+
+footer p{
+  font-size: 14px !important;
+}
